@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://t4.ftcdn.net/jpg/02/86/32/31/360_F_286323187_mDk3N4nGDaPkUmhNcdBe3RjSOfKqx4nZ.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #fff;
+  margin: 0 0 5px;
+  font-weight: bolder;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+.page-logo {
+  width: 200px;
+  margin: 10px 50px 20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  width: 50%;
+}
+.listMovies {
+  display: flex;
+  align-items: start;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+  margin: auto;
+}
+
+input {
+  margin: 8px;
+  padding: 4px;
+  height: 40px;
+  border-radius: 10px;
+}
+button {
+  margin: 8px;
+  width: 150px;
+  height: 40px;
+  background-color: #20B2AA;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 2px 3px 5px     #66CDAA;
+}
+
+#filmes-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+
+#listaFilmes {
+  list-style-type: none;
+  padding: 0;
+}
+
+#listaFilmes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#listaFilmes img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px; 
+}
+
+#listaFilmes strong {
+  width: 100%;
+  font-size: 22px; 
+  color: #FFF;
+}
+
+#listaFilmes button {
+  margin-left: 10px;
+  background-color: #B22222;
+}
+
+#listaFilmes button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 2px 3px 5px #DC143C;
+}
+
+
+
+
+
+
+
